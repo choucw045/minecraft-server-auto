@@ -1,0 +1,1 @@
+for /f %%i in ('jps -v ^| find "minecraftServer"') do taskkill /F /PID %%i
